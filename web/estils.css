@@ -36,6 +36,7 @@ body > #frontendHome {
 
 #productesContinguts {
     width: 100%;
+    flex-wrap: wrap;
 }
 #popups {
     background-color: rgba(0, 0, 0, 0.5);
@@ -108,4 +109,20 @@ body > #frontendHome {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+}
+
+#backofficeUsuarisContinguts{
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.producto {
+    max-width: 200px;
+    margin: 16px;
+    border:solid 1px black;
+    padding: 8px;
+
+
 }
